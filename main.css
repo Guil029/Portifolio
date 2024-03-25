@@ -21,10 +21,12 @@ li {
     margin: 0 auto;
     height: 100vh;
     flex-direction: column;
+    padding-bottom: 72px;
 }
 
 header {
     padding-bottom: 24px;
+
 }
 
 .profile-bio {
@@ -34,9 +36,9 @@ header {
 header .profile-picture {
     border-radius: 50%;
     display: block;
-    margin: 0 auto 24px;
-    max-width: 300px;
-    width: 100%;
+    margin: 0 auto 25px;
+    max-width: 200px;
+    width: 90%;
     border: 2px solid black;
 }
 
@@ -49,7 +51,6 @@ header .profile-name {
     font-size: 18px;
     margin: 12px;
 }
-
 
 
 .social-links {
@@ -66,4 +67,13 @@ header .profile-name {
 
 .social-links li img:hover {
     transform: scale(1.2);
+}
+
+
+.profile-bio img {
+    transition: all ease 0.5s;
+}
+
+.profile-bio img:hover {
+    transform: scale(1.1);
 }
